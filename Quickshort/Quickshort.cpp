@@ -7,6 +7,14 @@ int cmp_count = 0;
 int mov_count = 0;
 int n;
 
+void input() {
+    while (true)
+    {
+        cout << "Masukan panjang element array: ";
+        cin >> n;
+    }
+}
+
 int main()
 {
     
